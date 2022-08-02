@@ -1,28 +1,36 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Montserrat-Bold";
 }
+
 p {
   color: #8f8f8f;
 }
 
 /* heading */
-.big-heading{
+.big-heading {
   font-family: "Montserrat-Black", sans-serif;
   font-size: 4rem;
   line-height: 1.5;
 }
-.section-heading{
+.section-heading {
   font-size: 3rem;
   line-height: 1.5;
 }
 #title {
   background-color: #ff4c68;
   color: white;
+  text-align: left;
 }
-.container-fluid{
+.container-fluid {
   padding: 3% 15% 5% 15%;
 }
 
@@ -51,7 +59,7 @@ p {
   position: absolute;
   right: 30%;
 }
-.iphone{
+.iphone {
   position: relative;
 }
 /* features */
@@ -66,12 +74,9 @@ p {
   font-size: 1.5rem;
 }
 .options {
-  text-align: center;
   padding: 2px;
 }
-.feature-p {
-  text-align: center;
-}
+
 i:hover {
   color: #ff4c68;
 }
@@ -83,11 +88,10 @@ i {
 /* testimonial section */
 
 #testimonials {
-  text-align: center;
   background-color: #ef8172;
   color: #ffff;
 }
-.testimonial-text{
+.testimonial-text {
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -98,7 +102,6 @@ i {
 }
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 .press-logo {
@@ -110,50 +113,42 @@ i {
 }
 /* pricing section */
 
-#pricing{
+#pricing {
   padding: 100px;
-  text-align: center;
 }
-.price-text{
+.price-text {
   font-size: 3rem;
   line-height: 1.5;
 }
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
 /* media query */
-@media (max-width: 1028px){
-  .title-image{
-  position: static;
-  transform: rotate(0);
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
   }
-  #title{
+  #title {
     text-align: center;
   }
 }
 /* call to action */
-#cta{
+#cta {
   background-color: #ff4c68;
   padding: 10% 10%;
   color: #fff;
-  text-align: center;
 }
-footer{
-  text-align: center;
-}
-.true-love{
+.true-love {
   padding-bottom: 5%;
 }
-.footer-apple{
+.footer-apple {
   color: #fff;
 }
-.footer-play{
+.footer-play {
   color: #000;
 }
-.footer-icons{
+.footer-icons {
   color: #000;
   padding: 5px;
-}
-.button-footer{
-  text-align: center;
 }
